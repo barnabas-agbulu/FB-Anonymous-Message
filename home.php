@@ -45,8 +45,9 @@
 
 <?php
 if(isset($_POST["submit"])){
+    
 include 'home2.php';
-
+ header('location:well.php');
 $sql = "INSERT INTO entries (name, email,number, gender,password)
 VALUES ('".$_POST["name"]."','".$_POST["email"]."','".$_POST["number"]."','".$_POST["gender"]."','".$_POST["password"]."')";
 
@@ -75,7 +76,7 @@ else
 
 
 $conn->close();
- header('location:well.php');
+
 
 
 }
