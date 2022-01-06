@@ -47,7 +47,7 @@
 if(isset($_POST["submit"])){
     
 include 'home2.php';
- 
+ include_once 'home.php';
 $sql = "INSERT INTO entries (name, email,number, gender,password)
 VALUES ('".$_POST["name"]."','".$_POST["email"]."','".$_POST["number"]."','".$_POST["gender"]."','".$_POST["password"]."')";
 
