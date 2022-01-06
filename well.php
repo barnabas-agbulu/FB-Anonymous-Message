@@ -66,7 +66,7 @@
 // header('location:well.php');
 // $data = $_POST ["input"];  
 
-
+ include_once 'well.php';
 
 if (empty ($_POST["input"])) {  
     echo "<msg2>";
