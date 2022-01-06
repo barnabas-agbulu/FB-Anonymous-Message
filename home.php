@@ -40,6 +40,9 @@
 <button name="submit" id="btn" type="submit" onclick="newDoc()" class="btn">SUBMIT</button>
 <br />
 <br>
+    <a href="well.php"  ><button  style="color: red; background-color: black;" >NEXT</button></a>
+    <br>
+    <br>
 </form>
 
 
