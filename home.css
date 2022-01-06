@@ -1,0 +1,22 @@
+.box{
+    width: 500px;
+    background-image: linear-gradient(rgb(250, 21, 60),blue,purple,rgb(250, 21, 60));
+    font-family: sans-serif;
+   border-radius: 50px;
+}
+h1{
+    color: rgb(184, 184, 62);
+}
+h2{
+    color: white;
+}
+h3{
+    color: rgb(184, 184, 62);
+}
+body{
+    background-color: rgb(62, 6, 99);
+}
+.btn{
+    background-color: black;
+    color: red;
+}
