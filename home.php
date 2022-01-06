@@ -47,7 +47,7 @@
 if(isset($_POST["submit"])){
     
 include 'home2.php';
- header('location:well.php');
+ 
 $sql = "INSERT INTO entries (name, email,number, gender,password)
 VALUES ('".$_POST["name"]."','".$_POST["email"]."','".$_POST["number"]."','".$_POST["gender"]."','".$_POST["password"]."')";
 
@@ -58,7 +58,7 @@ echo "
     <script type= 'text/javascript'>
         alert('New record created successfully');
     </script>";
-   
+   header('location:well.php');
 } 
 else 
 {
