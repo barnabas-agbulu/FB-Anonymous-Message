@@ -57,7 +57,7 @@ echo "
     <script type= 'text/javascript'>
         alert('New record created successfully');
     </script>";
-    header('location:well.php');
+   
 } 
 else 
 {
@@ -75,7 +75,7 @@ else
 
 
 $conn->close();
-
+ header('location:well.php');
 
 
 }
