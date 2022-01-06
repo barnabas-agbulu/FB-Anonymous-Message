@@ -1,5 +1,5 @@
 <?php
 
-include_once('well.php')
+include_once('home.php')
 
 ?>
